@@ -1,0 +1,10 @@
+{
+  "text.autoconfig.betterthirdperson.title": "Better Third Person",
+  "text.autoconfig.betterthirdperson.option.alignPlayerOnInteract": "Align player to camera on left & right clicks",
+  "text.autoconfig.betterthirdperson.option.followCameraYawAngle": "Follow Camera Yaw Angle",
+  "text.autoconfig.betterthirdperson.option.freeCameraDuringElytra": "Free Camera During Elytra Flight",
+  "text.autoconfig.betterthirdperson.option.disableThirdPersonFrontView": "Disable Third-Person Front View",
+  "text.autoconfig.betterthirdperson.option.movementRotationSpeed": "Movement Rotation Speed",
+  "text.autoconfig.betterthirdperson.option.alignmentDurationTicks": "Alignment Duration (ticks)",
+  "text.autoconfig.betterthirdperson.option.pitchFollowSpeed": "Pitch Follow Speed"
+}
