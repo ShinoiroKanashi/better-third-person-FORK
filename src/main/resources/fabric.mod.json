@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "betterthirdperson",
+  "version": "${version}",
+  "name": "Better Third Person",
+  "description": "Independent third-person camera rotation for Fabric 1.21.8.",
+  "authors": [
+    "Socolio"
+  ],
+  "contact": {
+    "issues": "https://www.curseforge.com/minecraft/mc-mods/better-third-person/issues"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/betterthirdperson/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.socol.betterthirdperson.platform.BetterThirdPersonInitializer"
+    ],
+    "modmenu": [
+      "io.socol.betterthirdperson.integration.modmenu.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "betterthirdperson.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.13",
+    "minecraft": "1.21.8",
+    "java": ">=21"
+  },
+  "suggests": {
+    "cloth-config": ">=19.0.147",
+    "modmenu": ">=15.0.2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "io.socol.betterthirdperson.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "CameraMixin",
+    "ClientInputMixin",
+    "EntityMixin",
+    "KeyboardInputMixin",
+    "MinecraftClientMixin",
+    "MouseFixupMixin",
+    "MouseMixin",
+    "PlayerEntityMixin"
+  ],
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "betterthirdperson-refmap.json"
+}
